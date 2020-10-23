@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Robin Collet">
+    <title>Responsive Medium Discord-Like Avatar Example</title>
+    <!-- Get tailwind in here from a CDN because these are just static examples. -->
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!--
+    Center the section for this example
+    In a normal use-case you might want to use the padding utilities from tailwind.
+    -->
+    <section class="min-h-screen flex items-center justify-center">
+
+      <div class="flex flex-wrap -mr-3">
+
+        <!-- Online -->
+        <figure class="relative w-24 mr-3">
+          <img class="rounded-full" src="https://avatars3.githubusercontent.com/u/7423905?s=460&v=4" alt="GitHub Avatar of Taminoful">
+          <span class="absolute right-0 bottom-0 w-8 h-8 bg-green-500 hover:bg-green-800 border-4 border-solid border-white rounded-full cursor-pointer"></span>
+        </figure>
+
+        <!-- Away -->
+        <figure class="relative w-24 mr-3">
+          <img class="rounded-full" src="https://avatars3.githubusercontent.com/u/7423905?s=460&v=4" alt="GitHub Avatar of Taminoful">
+          <span class="absolute right-0 bottom-0 w-8 h-8 bg-yellow-500 hover:bg-yellow-800 border-4 border-solid border-white rounded-full cursor-pointer"></span>
+        </figure>
+
+        <!-- Busy -->
+        <figure class="relative w-24 mr-3">
+          <img class="rounded-full" src="https://avatars3.githubusercontent.com/u/7423905?s=460&v=4" alt="GitHub Avatar of Taminoful">
+          <span class="absolute right-0 bottom-0 w-8 h-8 bg-red-500 hover:bg-red-800 border-4 border-solid border-white rounded-full cursor-pointer"></span>
+        </figure>
+
+        <!-- Streaming -->
+        <figure class="relative w-24 mr-3">
+          <img class="rounded-full" src="https://avatars3.githubusercontent.com/u/7423905?s=460&v=4" alt="GitHub Avatar of Taminoful">
+          <span class="absolute right-0 bottom-0 w-8 h-8 bg-purple-500 hover:bg-purple-800 border-4 border-solid border-white rounded-full cursor-pointer"></span>
+        </figure>
+
+      </div>
+
+    </section>
+
+  </body>
+</html>
